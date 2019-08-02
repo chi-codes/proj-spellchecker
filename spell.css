@@ -1,0 +1,59 @@
+
+* {
+	font-family: sans-serif;
+  font-size: 14px;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("Lap.jpg") ;
+  /* background: rgb(31, 113, 168); */
+}
+
+.spell {
+  text-align: center;
+  border: 1px solid white;
+  width: 100%;
+  margin: auto;
+  padding: 15px;
+  border-radius: 8px;
+  background: rgb(66, 20, 119);
+}
+
+textarea {
+	width: 100%;
+	height: 250px;
+	padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  resize: none;
+}
+.word {
+	display: inline-block;
+	padding: 3px 6px 4px 6px;
+	border-radius: 2px;
+	background: rgb(66, 20, 119);
+	color: white;
+	margin: 10px 2px 0px;
+	cursor: pointer;
+}
+.words {
+	width: 100%;
+}
+
+p {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+  opacity: 200;
+  font-size: 30px;
+}
+
+footer {
+  position: absolute ;
+  bottom: 0;
+  text-align: center;
+  width: 100%; 
+}
+

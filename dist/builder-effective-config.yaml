@@ -1,0 +1,11 @@
+directories:
+  output: dist
+  buildResources: build
+appId: com.electron.simple-spellchecker
+linux:
+  target:
+    - AppImage
+    - deb
+win:
+  target: nsis
+electronVersion: 5.0.7
